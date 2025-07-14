@@ -1,4 +1,3 @@
-markdown
 # GitHub RSS Aggregator
 
 🛰️ 一个基于 Flask 的 GitHub 发布信息聚合器，支持自动抓取多个仓库的 release 信息并以 RSS 2.0 格式输出。
