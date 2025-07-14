@@ -13,11 +13,11 @@
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
 ## 主要文件
-github_rss.log----------------------------日志文件
-github_rss_aggregator.py------------------主程序
-repos.txt---------------------------------存放监控的库
-settings.json-----------------------------动态设置配置
-token.txt---------------------------------github token
+- github_rss.log----------------------------日志文件
+- github_rss_aggregator.py------------------主程序
+- repos.txt---------------------------------存放监控的库
+- settings.json-----------------------------动态设置配置
+- token.txt---------------------------------github token
 
 ## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录
 ```bash
