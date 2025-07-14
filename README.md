@@ -8,6 +8,9 @@
 - 并发获取仓库 Release
 - RSS 2.0 输出，支持 RSS 阅读器订阅
 
+## rss输出地址
+http://ip:5000/rss
+
 ## 界面
 - 最大条目数为输出的RSS个数，并非监控库的数量，可以从主程序脚本里自行修改。MAX_ENTRIES = 100
 ![图片描述](https://i.postimg.cc/65vZ6FRW/1.png)
@@ -15,9 +18,6 @@
 
 ## rss阅读器效果
 ![图片描述](https://i.postimg.cc/44HJM9jM/3.png)
-
-## rss输出地址
-http://ip:5000/rss
 
 ## 主要文件
 - github_rss.log----------------------------日志文件
