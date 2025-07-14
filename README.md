@@ -14,7 +14,7 @@
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
 ## rss阅读器效果
-![图片描述](https://i.postimg.cc/Vk8LXkGh/3.png)
+![图片描述](https://i.postimg.cc/44HJM9jM/3.png)
 
 ## rss输出地址
 http://ip:5000/rss
