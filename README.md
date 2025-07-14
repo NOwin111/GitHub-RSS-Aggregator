@@ -13,7 +13,7 @@ markdown
 ![图片描述](https://i.postimg.cc/65vZ6FRW/1.png)
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
-## 安装与运行，修改${GITHUB_RSS_DATA_DIR}为挂载目录
+## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录
 
 ```bash
 docker run -d \
