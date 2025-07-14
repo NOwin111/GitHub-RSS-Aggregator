@@ -22,7 +22,7 @@ http://ip:5000/rss
 - settings.json------------------------------动态设置配置
 - token.txt-----------------------------------github token
 
-## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录,安装后等待2分钟安装依赖包
+## Docker安装，修改${GITHUB_RSS_DATA_DIR}为自定义挂载目录,安装后等待2分钟安装依赖包
 ```bash
 docker run -d \
   --name github-rss-aggregator \
