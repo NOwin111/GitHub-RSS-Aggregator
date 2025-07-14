@@ -12,6 +12,9 @@
 ![图片描述](https://i.postimg.cc/65vZ6FRW/1.png)
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
+## rss输出地址
+http://ip:5000/rss
+
 ## 主要文件
 - github_rss.log----------------------------日志文件
 - github_rss_aggregator.py---------------主程序
