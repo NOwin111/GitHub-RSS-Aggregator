@@ -11,6 +11,7 @@ markdown
 
 ## 安装与运行
 
+```bash
 docker run -d \
   --name github-rss-aggregator \
   --network bridge \
