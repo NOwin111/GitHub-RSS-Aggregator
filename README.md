@@ -9,7 +9,7 @@ markdown
 - 并发获取仓库 Release
 - RSS 2.0 输出，支持 RSS 阅读器订阅
 
-## 安装与运行
+## 安装与运行，${GITHUB_RSS_DATA_DIR}为挂载目录
 
 ```bash
 docker run -d \
