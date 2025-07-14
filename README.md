@@ -10,10 +10,20 @@
 
 ## 安装与运行
 
-```bash
 docker run -d \
-  -p 3500:5000 \
-  -v $PWD:/app \
+  --name github-rss-aggregator \
+  --network bridge \
+  --restart=always \
+  -p 5000:5000 \
+  -e TZ=Asia/Shanghai \
+  -v ${GITHUB_RSS_DATA_DIR}:/app \
   -w /app \
   python:3.11 \
-  bash -c "pip install flask feedparser requests && python github_rss_aggregator.py"
+  bash -c "
+    apt-get update && apt-get install -y git curl
+    rm -rf /tmp/repo
+    git clone https://github.com/NOwin111/GitHub-RSS-Aggregator.git /tmp/repo
+    cp -r /tmp/repo/* /app/
+    pip install flask feedparser requests
+    python github_rss_aggregator.py
+  "
