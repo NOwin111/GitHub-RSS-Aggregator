@@ -17,7 +17,7 @@
 - github_rss_aggregator.py---------------主程序
 - repos.txt----------------------------------存放监控的库
 - settings.json------------------------------动态设置配置
-- token.txt----------------------------------github token
+- token.txt-----------------------------------github token
 
 ## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录
 ```bash
