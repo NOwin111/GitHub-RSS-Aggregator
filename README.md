@@ -12,8 +12,14 @@
 ![图片描述](https://i.postimg.cc/65vZ6FRW/1.png)
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
-## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录
+## 主要文件
+github_rss.log----------------------------日志文件
+github_rss_aggregator.py------------------主程序
+repos.txt---------------------------------存放监控的库
+settings.json-----------------------------动态设置配置
+token.txt---------------------------------github token
 
+## Docker安装，修改${GITHUB_RSS_DATA_DIR}为挂载目录
 ```bash
 docker run -d \
   --name github-rss-aggregator \
