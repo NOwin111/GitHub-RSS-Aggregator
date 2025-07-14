@@ -9,7 +9,7 @@
 - RSS 2.0 输出，支持 RSS 阅读器订阅
 
 ## 界面
-- 最大条目数为输出的RSS个数，并非监控库的数量，可以从主程序脚本里自行修改。
+- 最大条目数为输出的RSS个数，并非监控库的数量，可以从主程序脚本里自行修改。MAX_ENTRIES = 100
 ![图片描述](https://i.postimg.cc/65vZ6FRW/1.png)
 ![图片描述](https://i.postimg.cc/t4GxsDth/2.png)
 
